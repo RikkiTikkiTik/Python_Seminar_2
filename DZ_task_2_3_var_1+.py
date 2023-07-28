@@ -6,4 +6,4 @@
 N = int(input('Введите N: '))
 for i in range(N) :
     if N < 2 ** i : break
-    print (2 ** i, end= ',')
+    print (2 ** i, end= ',') # теперь указано окончание
